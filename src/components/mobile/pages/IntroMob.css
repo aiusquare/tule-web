@@ -1,0 +1,56 @@
+body {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Standard */
+}
+
+.intro-mob {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("../../../pictures/intro.jpg"); */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-14xl) 0 0;
+  gap: 0; /* Remove gap to avoid space between sections */
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.welcome-section,
+.logo-section,
+.short-note-section,
+.bottom-section {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.welcome-section {
+  height: 20%;
+}
+
+.logo-section {
+  height: 30%;
+}
+
+.short-note-section {
+  height: 30%;
+}
+
+.bottom-section {
+  height: 20%;
+}
+
+#get-started-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#lemon-img {
+  width: 80px;
+  height: 80px;
+}

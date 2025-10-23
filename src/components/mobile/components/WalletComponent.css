@@ -1,0 +1,77 @@
+.wallet-container {
+  background-image: url(../../../pictures/bg.png);
+  /* background: linear-gradient(4deg, #200647, #020324, #200647); */
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: medium;
+}
+
+/* Flexbox container for wallet info and action buttons */
+.wallet-info-wrapper,
+.action-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Wallet info section styling */
+.wallet-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Flexbox for balance label and amount */
+.balance-wrapper {
+  display: flex;
+  justify-content: space-between; /* Aligns label to the left and balance to the right */
+  align-items: center; /* Vertically centers the content */
+  width: 100%;
+  padding-top: 8px;
+}
+
+.wallet-balance-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.balance-amount {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Action buttons container */
+.action-buttons-wrapper {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Space between the buttons */
+  width: 100%;
+}
+
+/* Fund and Transactions buttons */
+.fund-wallet-button,
+.view-transactions-button {
+  height: 30px;
+  flex-grow: 1; /* Ensures both buttons grow equally to fill the container */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust button font size for smaller screens */
+  .fund-wallet-button,
+  .view-transactions-button {
+    font-size: 8px;
+  }
+}

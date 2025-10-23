@@ -1,0 +1,742 @@
+@media only screen and (max-width: 900px) {
+  .nav-pan {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .wallet-card-q div {
+    font-size: small;
+  }
+
+  .wallet-card-q tbody tr td {
+    font-size: small !important;
+  }
+
+  .s-dialod-box {
+    width: 80% !important;
+  }
+
+  .apk-download-btn {
+    width: 160px !important;
+    height: 50px !important;
+  }
+
+  .mod-ui-gadget {
+    width: 160px !important;
+    height: 90% !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .tab-t-size {
+    font-size: small !important;
+    white-space: normal !important;
+  }
+}
+
+@font-face {
+  font-family: "roller1";
+  src: local("roller1"), url(../fonts/GaMaamli-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "roller2";
+  src: local("roller2"),
+    url(../fonts/AlumniSansCollegiateOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "roller3";
+  src: local("roller3"), url(../fonts/Shrikhand-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "DedicHeaderFont";
+  src: local("DedicHeaderFont"),
+    url(../fonts/ChunkFive-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "regularFont";
+  src: local("regularFont"), url(../fonts/Pacifico.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Charm";
+  src: local("Charm"), url(../fonts/Charm-Regular.ttf) format("truetype");
+}
+
+:root {
+  /* Colors */
+  --black: #09090c;
+  --grey: #a4b2bc;
+  --white: #fff;
+  --background: rgba(233, 221, 221, 0.37);
+}
+
+/* h1 {
+  font-family: Charm, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 6.2vw;
+}
+
+h2 {
+  font-family: Charm, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+  color: #360101;
+} */
+
+.button {
+  background: #200647;
+}
+
+.button:hover {
+  background: #ffe66c;
+}
+
+button:disabled {
+  background-color: gray;
+  color: lightgray;
+}
+
+.centered-content {
+  height: 100vh;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.centered-content h3 {
+  margin: 0;
+}
+
+.logo_text {
+  color: #6b0808;
+  font-weight: bolder;
+}
+
+.d_link {
+  color: #200647;
+  padding: 2px;
+}
+
+.d_link:hover {
+  color: #ffffff;
+  background-color: #2f8709;
+  border-radius: 5px;
+}
+
+.project-cards {
+  height: 80px;
+  width: 130px;
+  padding: 10px;
+}
+
+.profile-label {
+  height: 60px;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.clipboard-copy {
+  cursor: "pointer";
+}
+
+#roller-one {
+  font-family: roller1;
+  color: #000000;
+  font-size: large;
+}
+
+#roller-two {
+  font-family: roller2;
+  color: #200647;
+}
+
+#roller-three {
+  font-family: roller3;
+}
+
+#academy-bg {
+  /* height: 600px; */
+  /* background-image: url(../pictures/student1.jpg); */
+}
+
+#agent-badge {
+  background-color: #eeeff1;
+}
+
+.home-card-bg {
+  position: relative;
+  height: 600px;
+}
+
+.main-content-dsb {
+  overflow-x: auto;
+  height: 85%;
+}
+
+.home-img {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-content {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  /* background-color: #f3f4f6; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/ecailles.png"); */
+}
+
+.land-bg {
+  background-color: #f3f4f6;
+  /* background-image: url("https://www.transparenttextures.com/patterns/ecailles.png"); */
+}
+
+.land-bg .d_link {
+  color: rgb(0, 0, 0);
+}
+
+.land-bg .d_link:hover {
+  color: white;
+  background: #000;
+}
+
+.logo-text {
+  color: white;
+  font-weight: bold;
+}
+
+.home-font {
+  font-size: 50px;
+  text-align: left;
+  margin: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.home-font p {
+  font-family: Charm;
+  color: rgb(0, 0, 0);
+}
+
+.home-content button {
+  float: left;
+  margin-top: 55px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #200647;
+  background: white;
+  border-radius: 5px;
+  color: black;
+  width: 200px;
+}
+
+.home-content button:hover {
+  background: #200647;
+  color: white;
+  border: 1px solid rgba(#ffd435, 0.05);
+  box-shadow: 1px 1px 2px rgba(#fff, 0.2);
+  text-decoration: none;
+  text-shadow: -1px -1px 0;
+  transition: all 250ms linear;
+}
+
+.features-cards {
+  height: 440px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 20px;
+  background-color: #fffefe8c;
+  border: 1px solid #200647; /* Set your desired border color */
+  text-align: justify;
+  overflow: hidden;
+}
+
+.features-cards h4 {
+  color: #360101;
+}
+
+.pricing-bg {
+  padding: 10px;
+  background-color: #f7f7f786;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-cards {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ffffffec;
+  border: 1px solid #52050548; /* Set your desired border color */
+}
+
+.pricing-cards tr {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.pricing-cards td {
+  padding: 5px;
+}
+
+.pricing-cards button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #200647;
+  background: white;
+  border-radius: 5px;
+  color: black;
+  width: 200px;
+}
+
+.pricing-cards button:hover {
+  background: #200647;
+  color: white;
+  border: 1px solid rgba(#000, 0.05);
+  box-shadow: 1px 1px 2px rgba(#fff, 0.2);
+  text-decoration: none;
+  text-shadow: -1px -1px 0;
+  transition: all 250ms linear;
+}
+
+.features-images {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+}
+
+.prj-table-label {
+  padding: 10px;
+  background-color: #011041;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fffffe;
+}
+
+.prj-header-label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.profile-bg {
+  background: rgba(237, 240, 243, 0.185);
+  border-radius: 5px;
+  border-left: 50px solid #f1eeea96;
+  margin: 15px;
+  width: 300px;
+  overflow-wrap: break-word;
+}
+
+.profile-bg .icn {
+  position: absolute;
+  left: 0%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.profile-bg .title {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.profile-bg .desc {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#home-center-row {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.airtime-to-cash-table {
+  padding: 10px;
+}
+
+.airtime-to-cash-table td {
+  padding: 10px;
+}
+
+.center-cmp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wallet-card-bal-bg {
+  /* background: #200647; rgb(139, 10, 10); */
+  background: linear-gradient(4deg, #200647, #200647, #200647);
+  background-size: cover;
+  background-position: center;
+  /* color: white; */
+}
+
+.wal-tab-labeler {
+  background: #00000057 !important;
+}
+
+.wal-tab-labeler:focus {
+  background-color: #ffffffb7 !important;
+}
+
+.wal-tab-highlight {
+  background: #ffffffb7 !important;
+}
+
+.wallet-label-cards {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #000000a9;
+  border: 1px solid #36020248; /* Set your desired border color */
+  font-weight: bolder;
+}
+
+#support-bg {
+  background-color: #f3f4f6;
+  height: 600px;
+  width: 100%;
+}
+
+.service-container {
+  width: 80%;
+}
+
+.login {
+  width: 300px;
+}
+
+.overlay {
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(186, 187, 189, 0.178);
+}
+
+.description {
+  margin-top: 20%;
+  margin-bottom: 1%;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.menu-humbager {
+  margin: -5px 0 20px 5px;
+  cursor: pointer;
+}
+
+.menu-humbager:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #a4b2bc;
+}
+
+th {
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.wallet-card-buttons {
+  width: 100%;
+  padding: 5px;
+  /* margin: 5px; */
+  border-radius: 5px;
+  font-size: x-small;
+  border-width: 1px;
+  border-color: #850303;
+  white-space: nowrap;
+}
+
+.wallet-card-buttons:hover {
+  background: #661717;
+  color: white;
+  font-size: medium;
+  border: 1px solid rgba(#000, 0.05);
+  box-shadow: 1px 1px 2px rgba(#fff, 0.2);
+  text-decoration: none;
+  transition: all 350ms linear;
+}
+
+.wallet-q {
+  font-size: medium !important;
+}
+
+.accounts-cards {
+  background: linear-gradient(4deg, #200647, #200647, #200647);
+  font-size: xx-large;
+  color: white;
+}
+
+.accounts-cards td {
+  color: white;
+  font-size: larger;
+}
+
+.accounts-cards-txt {
+  color: #a4b2bc;
+}
+
+.greating-card {
+  background: #200647;
+  width: 100%;
+  height: 100px;
+}
+
+.data-coupon-card {
+  background: url("../pictures/coupon_card_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 3.5in;
+  height: 2in;
+}
+
+.pin-bg {
+  width: 80%;
+  background: #ffffff77;
+}
+
+.custom_features_bg {
+  background-attachment: fixed;
+  /* background-image: url("../pictures/lemon.png"); */
+}
+
+.custom_footer_bg {
+  background: black;
+}
+
+.custom_login {
+  --s: 60px;
+
+  --_g: #c4212121 83%, #ffffff 85% 99%, #f3f4f6 101%;
+  background: radial-gradient(27% 29% at right, var(--_g)) calc(var(--s) / 2)
+      var(--s),
+    radial-gradient(27% 29% at left, var(--_g)) calc(var(--s) / -2) var(--s),
+    radial-gradient(29% 27% at top, var(--_g)) 0 calc(var(--s) / 2),
+    radial-gradient(29% 27% at bottom, var(--_g)) 0 calc(var(--s) / -2) #ffffff;
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
+
+.roller {
+  height: 10rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #35960c;
+}
+
+#spare-time {
+  font-size: 2rem;
+  font-style: italic;
+  letter-spacing: 1rem;
+  margin-top: 15px;
+  color: #35960c;
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 10s infinite;
+}
+
+.w_roller {
+  height: 3rem;
+  line-height: 3rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+#spare-timeI {
+  font-size: 2rem;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+  color: #c40404;
+}
+
+.w_roller #rolltextI {
+  position: absolute;
+  top: 0;
+  animation: slide 15s infinite;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -4rem;
+  }
+  50% {
+    top: -8rem;
+  }
+  72.5% {
+    top: -12.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    /* color: #f1faee; */
+    /* font-size: 2.125rem; */
+  }
+
+  .ft {
+    font-size: 1.2rem !important;
+  }
+
+  .roller {
+    height: 8rem;
+    line-height: 2.125rem;
+  }
+
+  .w_roller {
+    height: 3rem;
+    line-height: 3rem;
+  }
+
+  #spare-time {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  #spare-timeI {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .roller #rolltext {
+    animation: slide-mob 10s infinite;
+  }
+
+  .w_roller #rolltextI {
+    animation: w-slide-mob 15s infinite;
+  }
+
+  @keyframes w-slide-mob {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -3rem;
+    }
+    50% {
+      top: -5rem;
+    }
+    72.5% {
+      top: -12rem;
+    }
+  }
+
+  @keyframes slide-mob {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -2.125rem;
+    }
+    50% {
+      top: -4.25rem;
+    }
+    72.5% {
+      top: -6.375rem;
+    }
+  }
+}
+
+.slide {
+  /* background: linear-gradient(to bottom, #ffffff, #000000); */
+  /* background-color: #f6f7f2; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/arabesque.png"); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 270px;
+  color: white;
+}
+
+.slide h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.sec-slide {
+  /* background-color: #ffffff; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/black-felt.png"); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.sec-slide h2 {
+  color: #c40404;
+  font-weight: bold;
+}
+
+.sec-slide p {
+  color: #09090c;
+  font-weight: bold;
+}
+
+.dashboard-contact {
+  height: 100%;
+  font-weight: bolder;
+  text-align: center;
+}

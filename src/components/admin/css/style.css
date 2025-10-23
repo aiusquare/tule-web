@@ -1,0 +1,71 @@
+.cus-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 2px;
+  margin-top: 5px;
+  background-color: #05321e;
+  border-radius: 20px;
+  color: white;
+  width: 150px;
+  position: relative;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cus-date-picker {
+  border-radius: 10px;
+}
+
+.m-btn-color {
+  background: #05321e;
+  background-color: #05321e;
+}
+
+.wallet-table {
+  padding: 10px;
+}
+
+.wallet-table td {
+  padding: 10px;
+}
+
+.subscribers-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.subscribers-table th {
+  background-color: #ce8e1e;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.subscribers-table td {
+  padding: 5px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.subscribers-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.subscribers-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pin-cell {
+  position: relative;
+}
+
+.copy-icon {
+  cursor: pointer;
+  color: black;
+  margin-left: 8px;
+}

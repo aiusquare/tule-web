@@ -1,0 +1,63 @@
+{
+  "name": "tuledata",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.12",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@mui/icons-material": "^6.0.2",
+    "@mui/material": "^5.15.13",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.17",
+    "@szhsin/react-menu": "^4.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "firebase": "^10.10.0",
+    "framer-motion": "^11.0.14",
+    "html-to-image": "^1.11.11",
+    "mdb-react-ui-kit": "^7.2.0",
+    "mui-file-input": "^6.0.0",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-loading-icons": "^1.1.0",
+    "react-pro-sidebar": "^1.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-search-box": "^3.0.0",
+    "styled-components": "^6.1.8",
+    "superagent": "^8.1.2",
+    "sweetalert2": "^11.10.7",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^11.1.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

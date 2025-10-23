@@ -1,0 +1,68 @@
+.more-components-actions-child {
+  height: 114px;
+  width: 390px;
+  position: relative;
+  background-color: var(--color-linen);
+  display: none;
+  max-width: 100%;
+}
+.component-2-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.buy-data5 {
+  margin-right: -7px;
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.download-from-cloud5 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.component-22 {
+  height: 95px;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.more-components-actions {
+  align-self: stretch;
+  background-color: var(--color-linen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+
+.nav-card {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.mob-dashboard {
+  width: 100%;
+  background: white;
+}
+
+#header-section {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 10;
+  background: white;
+}
+
+#wallet-section {
+  position: absolute;
+  top: 70px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-section {
+  position: absolute;
+  top: 280px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#notif-section {
+  position: absolute;
+  top: 460px;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+}
+
+#footer-section {
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  bottom: 0px;
+}

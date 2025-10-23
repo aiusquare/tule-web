@@ -1,0 +1,94 @@
+body {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Standard */
+}
+
+.register {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #200647;
+  /* background: linear-gradient(
+      6.38deg,
+      #f60,
+      rgba(238, 232, 222, 0.56) 25.5%,
+      #f60 80%
+    ),
+    #fff; */
+  padding: var(--padding-28xl) 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-bigshot-one);
+  display: flex; /* Flexbox to center body-section */
+  flex-direction: column;
+  justify-content: flex-start; /* Start from the top */
+  align-items: center; /* Center horizontally */
+}
+
+.register .head-section {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack vertically */
+  padding: 20px 0;
+}
+
+.register .body-section {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+  display: flex;
+  flex-direction: column; /* Lay out components vertically */
+  align-items: center;
+  /* gap: 0px; Adjust the gap between components as needed */
+  flex-grow: 1; /* Allow it to grow and fill the remaining space */
+  box-sizing: border-box;
+}
+
+#login-header-container {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+#login-txt {
+  font-size: larger;
+  font-weight: 900;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#welcome-note {
+  margin-top: 30px;
+  color: #000000;
+  /* font-weight: 800; */
+}
+
+#login-body-content {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-top-left-radius: 20px; /* Adjust the value as needed */
+  border-top-right-radius: 20px; /* Adjust the value as needed */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
+/* Additional styles for your text field if necessary */
+.cus-text-field {
+  width: 80%; /* Or any other width that fits your design */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,19 @@
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+  gap: 5px; /* Space between the columns */
+  white-space: nowrap;
+}
+
+.menu-container > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 78px;
+}
+
+.menu-container > *:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}

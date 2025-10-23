@@ -1,0 +1,24 @@
+.nav-menu-item {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.nav-menu-icon {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu-label {
+  font-size: 10px;
+  text-align: center;
+}

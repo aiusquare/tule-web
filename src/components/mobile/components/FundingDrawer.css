@@ -1,0 +1,20 @@
+.account-card {
+  font-size: small;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.account-card .horizontal-container {
+  display: flex;
+  justify-content: space-between; /* Optional: space out the divs */
+  align-items: center; /* Aligns the items vertically */
+  gap: 10px; /* Adds space between the divs */
+}
+
+.account-card .button-container {
+  height: 31px;
+  flex: 0.8864;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 105px;
+  z-index: 1;
+}

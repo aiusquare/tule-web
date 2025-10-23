@@ -1,0 +1,29 @@
+/* ChatButton.css */
+.chat-button {
+  position: fixed;
+  bottom: 15%;
+  right: 20px;
+  z-index: 1000;
+}
+
+.floating-btn {
+  background-color: #25d366; /* WhatsApp color */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.712);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.floating-btn:hover {
+  background-color: #128c7e; /* Darker WhatsApp color */
+}
+
+.chat-icon {
+  width: 30px;
+  height: 30px;
+}

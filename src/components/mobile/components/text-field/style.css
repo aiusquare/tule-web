@@ -1,0 +1,21 @@
+.text-field-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the text field content */
+  width: 100%; /* Ensure it takes full width */
+  margin-bottom: 20px; /* Add spacing between text fields */
+}
+
+.label {
+  align-self: flex-start; /* Align the label to the start */
+  font-family: var(--font-inknut-antiqua);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  margin-bottom: 5px; /* Add spacing below the label */
+}
+
+.field {
+  width: 100%; /* Ensure field takes full width */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: small;
+}

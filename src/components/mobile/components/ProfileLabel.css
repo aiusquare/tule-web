@@ -1,0 +1,18 @@
+.profile-label {
+  margin: 1px;
+}
+
+.profile-label .label {
+  font-size: smaller;
+  float: left;
+  margin: 5px;
+  font-style: italic;
+}
+
+.profile-label .label-text {
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.317);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: small;
+}
